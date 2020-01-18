@@ -1,0 +1,10 @@
+package com.rest.webservices.restfulwebservices.exception;
+
+public class UserListEmptyException extends Exception {
+	
+	public UserListEmptyException(String message) {
+		super(message);
+		// TODO Auto-generated constructor stub
+	}
+
+}

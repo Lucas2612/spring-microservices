@@ -1,0 +1,6 @@
+package com.rest.webservices.restfulwebservices.user;
+
+@RestController
+public class UserJpaResource {
+
+}

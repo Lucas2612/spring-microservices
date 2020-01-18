@@ -1,0 +1,17 @@
+package com.rest.webservices.restfulwebservices.exception;
+
+import org.springframework.web.bind.annotation.ControllerAdvice;
+import org.springframework.web.bind.annotation.ExceptionHandler;
+import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.servlet.handler.WebRequestHandlerInterceptorAdapter;
+import org.springframework.web.servlet.mvc.method.annotation.ResponseEntityExceptionHandler;
+
+@ControllerAdvice
+@RestController
+public class CustomizedResponseExceptionHandler extends ResponseEntityExceptionHandler {
+
+	@ExceptionHandler
+	public final ResponseEntity<Object> handleException(Exception ex, 
+			WebRequest webRequest )
+	
+}

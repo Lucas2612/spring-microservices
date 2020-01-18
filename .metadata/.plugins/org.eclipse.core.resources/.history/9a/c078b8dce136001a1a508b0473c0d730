@@ -1,0 +1,9 @@
+package com.rest.webservices.restfulwebservices;
+
+public class HelloWorldBean {
+	
+	public HelloWorldBean(String message) {
+		this.message = messsage;
+	}
+
+}

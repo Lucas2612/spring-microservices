@@ -1,0 +1,13 @@
+package com.rest.webservices.restfulwebservices;
+
+import org.springframework.web.bind.annotation.RestController;
+
+@RestController
+public class HelloWorldController {
+	
+	// method hello world
+	// GET
+	// URI  - /hello-world
+	
+	
+}
