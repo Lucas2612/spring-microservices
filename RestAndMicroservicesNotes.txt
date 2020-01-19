@@ -1,0 +1,83 @@
+Rest and Microservices
+
+REpresentaion State Transfer
+
+Http methods
+POST
+GET
+PUT
+DELETE
+
+
+@RestController
+
+@GetMapping
+@PostMapping
+
+
+Exception: 
+@ControllerAdvice
+
+
+return ResponseEntity
+
+
+Validator    @Valid on method
+
+nos campos:
+@Past 
+@Size
+
+
+override
+@HandleMethodArgumentNotValidate
+
+
+HATEOAS - Boa prática. Ex. link da lista dos objetos no response
+
+SWAGGER - Documentation
+
+ACTUATOR - Monitoring
+
+
+
+Filtering na resposta:
+@JsonIgnore ou @JsonIgnoreProperties
+Dinamic: MappingJacksonValue, FilterProvider
+
+
+
+Versioning
+Approaches: 
+different path or 
+params or 
+headers: X-API-Version=2
+
+Best Practice: Consumer First
+
+
+MICROSERVICES:
+
+REST, Small Deployables units and cloud enabled
+
+
+Spring Cloud
+
+Spring Cloud Config Server - Centralized Microservices Config in Git repository
+
+Ribbon - Load Balancing
+
+Netflix Eureka - Naming server (Call microservices by name not url)
+
+Feign - Easies rest call
+
+Netflix Zuul Server - Log
+
+Sleuth - Enable Tracing ID
+
+Rabbit MQ (Erlang dependency) and  Zipkin to centralized tracing.
+
+Hystrix - Fault Tolerance
+
+
+
